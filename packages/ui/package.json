@@ -3,13 +3,11 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "main": "./dist/ui.umd.cjs",
   "module": "./dist/ui.js",
   "types": "./dist/index.d.ts",
   "exports": {
     ".": {
-      "import": "./dist/ui.js",
-      "require": "./dist/ui.umd.cjs",
+      "import": "./dist/ui.js",,
       "types": "./dist/index.d.ts"
     },
     "./style.css": "./dist/style.css"
