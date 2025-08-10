@@ -30,7 +30,7 @@ export default defineConfig({
       name: 'MyUIRepo',
       // The output package file name
       fileName: 'ui',
-      formats: ['es', 'umd']
+      formats: ['es']
     },
     rollupOptions: {
       // Make sure to externalize dependencies you don't want to bundle into your library
