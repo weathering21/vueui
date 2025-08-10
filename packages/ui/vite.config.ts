@@ -29,7 +29,7 @@ export default defineConfig({
       // A global variable name for the module in UMD build mode
       name: 'MyUIRepo',
       // The output package file name
-      fileName: 'ui'，
+      fileName: 'ui',
       formats: ['es', 'umd']
     },
     rollupOptions: {
