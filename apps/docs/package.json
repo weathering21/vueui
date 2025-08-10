@@ -1,0 +1,18 @@
+{
+  "name": "@my-vue-turborepo/docs",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vitepress dev",
+    "build": "vitepress build",
+    "preview": "vitepress preview"
+  },
+  "dependencies": {
+    "@my-vue-turborepo/ui": "workspace:*"
+  },
+  "devDependencies": {
+    "markdown-it-container": "^4.0.0",
+    "vitepress": "^1.2.3",
+    "vue": "^3.4.29"
+  }
+}
